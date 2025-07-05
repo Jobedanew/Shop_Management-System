@@ -39,7 +39,6 @@ namespace Shop_Management_System.Views
                 string password = textBoxPass.Text;
                 string contact = textBoxContact.Text;
                 int age = Convert.ToInt32(textBoxAge.Text);
-                //string role = textBoxRole.Text;
                 string gender = comboBox1.Text;
                 string address = textBoxAddress.Text;                   
 

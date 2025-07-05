@@ -47,6 +47,7 @@
             this.lblProfit = new System.Windows.Forms.Label();
             this.textBoxProfit = new System.Windows.Forms.TextBox();
             this.btnBack = new System.Windows.Forms.Button();
+            this.buttonUpdate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblName
@@ -205,7 +206,7 @@
             // btnBack
             // 
             this.btnBack.BackColor = System.Drawing.Color.PapayaWhip;
-            this.btnBack.Location = new System.Drawing.Point(488, 505);
+            this.btnBack.Location = new System.Drawing.Point(548, 574);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 36);
             this.btnBack.TabIndex = 2;
@@ -213,12 +214,23 @@
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // buttonUpdate
+            // 
+            this.buttonUpdate.Location = new System.Drawing.Point(267, 522);
+            this.buttonUpdate.Name = "buttonUpdate";
+            this.buttonUpdate.Size = new System.Drawing.Size(124, 36);
+            this.buttonUpdate.TabIndex = 3;
+            this.buttonUpdate.Text = "Update";
+            this.buttonUpdate.UseVisualStyleBackColor = true;
+            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
+            // 
             // AdminProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(589, 563);
+            this.ClientSize = new System.Drawing.Size(635, 622);
+            this.Controls.Add(this.buttonUpdate);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.textBoxProfit);
             this.Controls.Add(this.textBoxRole);
@@ -267,5 +279,6 @@
         private System.Windows.Forms.Label lblProfit;
         private System.Windows.Forms.TextBox textBoxProfit;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button buttonUpdate;
     }
 }
