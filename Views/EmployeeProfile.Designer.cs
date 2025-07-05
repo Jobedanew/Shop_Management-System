@@ -47,6 +47,7 @@
             this.textBoxRole = new System.Windows.Forms.TextBox();
             this.textBoxSalary = new System.Windows.Forms.TextBox();
             this.buttonBack = new System.Windows.Forms.Button();
+            this.buttonupdate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelName
@@ -205,20 +206,33 @@
             // 
             // buttonBack
             // 
-            this.buttonBack.Location = new System.Drawing.Point(476, 494);
+            this.buttonBack.BackColor = System.Drawing.Color.Peru;
+            this.buttonBack.Location = new System.Drawing.Point(503, 534);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(75, 32);
             this.buttonBack.TabIndex = 2;
             this.buttonBack.Text = "Back";
-            this.buttonBack.UseVisualStyleBackColor = true;
+            this.buttonBack.UseVisualStyleBackColor = false;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            // 
+            // buttonupdate
+            // 
+            this.buttonupdate.BackColor = System.Drawing.Color.PapayaWhip;
+            this.buttonupdate.Location = new System.Drawing.Point(318, 491);
+            this.buttonupdate.Name = "buttonupdate";
+            this.buttonupdate.Size = new System.Drawing.Size(96, 32);
+            this.buttonupdate.TabIndex = 3;
+            this.buttonupdate.Text = "Update";
+            this.buttonupdate.UseVisualStyleBackColor = false;
+            this.buttonupdate.Click += new System.EventHandler(this.buttonupdate_Click);
             // 
             // EmployeeProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(576, 551);
+            this.BackColor = System.Drawing.Color.Tan;
+            this.ClientSize = new System.Drawing.Size(603, 589);
+            this.Controls.Add(this.buttonupdate);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.textBoxSalary);
             this.Controls.Add(this.textBoxRole);
@@ -267,5 +281,6 @@
         private System.Windows.Forms.TextBox textBoxRole;
         private System.Windows.Forms.TextBox textBoxSalary;
         private System.Windows.Forms.Button buttonBack;
+        private System.Windows.Forms.Button buttonupdate;
     }
 }

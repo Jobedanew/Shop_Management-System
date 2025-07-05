@@ -51,6 +51,7 @@
             // 
             // Grid
             // 
+            this.Grid.BackgroundColor = System.Drawing.Color.Bisque;
             this.Grid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Grid.Location = new System.Drawing.Point(22, 295);
             this.Grid.Name = "Grid";
@@ -61,10 +62,10 @@
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.PapayaWhip;
-            this.btnBack.Location = new System.Drawing.Point(989, 243);
+            this.btnBack.BackColor = System.Drawing.Color.Peru;
+            this.btnBack.Location = new System.Drawing.Point(1054, 571);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(98, 32);
+            this.btnBack.Size = new System.Drawing.Size(78, 29);
             this.btnBack.TabIndex = 1;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = false;
@@ -73,7 +74,7 @@
             // btnReset
             // 
             this.btnReset.BackColor = System.Drawing.Color.PapayaWhip;
-            this.btnReset.Location = new System.Drawing.Point(682, 243);
+            this.btnReset.Location = new System.Drawing.Point(622, 243);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(98, 32);
             this.btnReset.TabIndex = 1;
@@ -84,7 +85,7 @@
             // btnSearch
             // 
             this.btnSearch.BackColor = System.Drawing.Color.PapayaWhip;
-            this.btnSearch.Location = new System.Drawing.Point(528, 243);
+            this.btnSearch.Location = new System.Drawing.Point(422, 243);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(98, 32);
             this.btnSearch.TabIndex = 1;
@@ -95,7 +96,7 @@
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.PapayaWhip;
-            this.btnDelete.Location = new System.Drawing.Point(378, 243);
+            this.btnDelete.Location = new System.Drawing.Point(1001, 243);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(98, 32);
             this.btnDelete.TabIndex = 1;
@@ -106,7 +107,7 @@
             // btnUpdate
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.PapayaWhip;
-            this.btnUpdate.Location = new System.Drawing.Point(230, 243);
+            this.btnUpdate.Location = new System.Drawing.Point(240, 243);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(98, 32);
             this.btnUpdate.TabIndex = 1;
@@ -192,7 +193,7 @@
             // btnSale
             // 
             this.btnSale.BackColor = System.Drawing.Color.PapayaWhip;
-            this.btnSale.Location = new System.Drawing.Point(850, 243);
+            this.btnSale.Location = new System.Drawing.Point(807, 243);
             this.btnSale.Name = "btnSale";
             this.btnSale.Size = new System.Drawing.Size(90, 32);
             this.btnSale.TabIndex = 4;
@@ -220,8 +221,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(1182, 555);
+            this.BackColor = System.Drawing.Color.Tan;
+            this.ClientSize = new System.Drawing.Size(1175, 626);
             this.Controls.Add(this.btnSale);
             this.Controls.Add(this.lblSale);
             this.Controls.Add(this.lblQantity);

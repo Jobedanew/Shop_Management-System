@@ -59,5 +59,12 @@ namespace Shop_Management_System.Views
             EmployeeOperation eo = new EmployeeOperation(u);
             eo.Show();
         }
+
+        private void buttonlogout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+        }
     }
 }

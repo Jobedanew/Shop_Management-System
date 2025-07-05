@@ -116,7 +116,6 @@ namespace Shop_Management_System.Views
             textBoxContact.Clear();
             comboBox1.SelectedIndex=-1;
             textBoxPass.Clear();
-            textBoxRole.Clear();
             textBoxEmail.Clear();
             textBoxId.Enabled = true;
         }
@@ -139,7 +138,6 @@ namespace Shop_Management_System.Views
                     textBoxContact.Text=c.Address;
                     comboBox1.Text=c.Gender;
                     textBoxPass.Text=c.Password;
-                    textBoxRole.Text= Convert.ToString(c.Role);
                     textBoxEmail.Text=c.Email;
 
                     MessageBox.Show("Customer Has Been Found!");

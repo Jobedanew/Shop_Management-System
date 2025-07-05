@@ -32,6 +32,7 @@
             this.buttonExit = new System.Windows.Forms.Button();
             this.buttonCO = new System.Windows.Forms.Button();
             this.buttonProfile = new System.Windows.Forms.Button();
+            this.buttonlogout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonPO
@@ -48,7 +49,7 @@
             // 
             // buttonExit
             // 
-            this.buttonExit.BackColor = System.Drawing.Color.Crimson;
+            this.buttonExit.BackColor = System.Drawing.Color.Red;
             this.buttonExit.Location = new System.Drawing.Point(699, 399);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(71, 31);
@@ -79,12 +80,24 @@
             this.buttonProfile.UseVisualStyleBackColor = false;
             this.buttonProfile.Click += new System.EventHandler(this.buttonProfile_Click);
             // 
+            // buttonlogout
+            // 
+            this.buttonlogout.BackColor = System.Drawing.Color.Peru;
+            this.buttonlogout.Location = new System.Drawing.Point(352, 314);
+            this.buttonlogout.Name = "buttonlogout";
+            this.buttonlogout.Size = new System.Drawing.Size(92, 35);
+            this.buttonlogout.TabIndex = 2;
+            this.buttonlogout.Text = "Log out";
+            this.buttonlogout.UseVisualStyleBackColor = false;
+            this.buttonlogout.Click += new System.EventHandler(this.buttonlogout_Click);
+            // 
             // EmployeeHomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonlogout);
             this.Controls.Add(this.buttonProfile);
             this.Controls.Add(this.buttonCO);
             this.Controls.Add(this.buttonExit);
@@ -102,5 +115,6 @@
         private System.Windows.Forms.Button buttonExit;
         private System.Windows.Forms.Button buttonCO;
         private System.Windows.Forms.Button buttonProfile;
+        private System.Windows.Forms.Button buttonlogout;
     }
 }

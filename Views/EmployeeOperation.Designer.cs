@@ -42,12 +42,10 @@
             this.labelContact = new System.Windows.Forms.Label();
             this.labelAge = new System.Windows.Forms.Label();
             this.labelgGender = new System.Windows.Forms.Label();
-            this.labelRole = new System.Windows.Forms.Label();
             this.labelSalary = new System.Windows.Forms.Label();
             this.textBoxname = new System.Windows.Forms.TextBox();
             this.textBoxid = new System.Windows.Forms.TextBox();
             this.textBoxpass = new System.Windows.Forms.TextBox();
-            this.textBoxrole = new System.Windows.Forms.TextBox();
             this.textBoxsalary = new System.Windows.Forms.TextBox();
             this.textBoxemail = new System.Windows.Forms.TextBox();
             this.textBoxconact = new System.Windows.Forms.TextBox();
@@ -58,6 +56,7 @@
             // 
             // Grid
             // 
+            this.Grid.BackgroundColor = System.Drawing.Color.Bisque;
             this.Grid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Grid.Location = new System.Drawing.Point(12, 269);
             this.Grid.Name = "Grid";
@@ -69,7 +68,7 @@
             // butonAdd
             // 
             this.butonAdd.BackColor = System.Drawing.Color.PapayaWhip;
-            this.butonAdd.Location = new System.Drawing.Point(94, 217);
+            this.butonAdd.Location = new System.Drawing.Point(105, 217);
             this.butonAdd.Name = "butonAdd";
             this.butonAdd.Size = new System.Drawing.Size(82, 37);
             this.butonAdd.TabIndex = 1;
@@ -80,7 +79,7 @@
             // buttonUpdate
             // 
             this.buttonUpdate.BackColor = System.Drawing.Color.PapayaWhip;
-            this.buttonUpdate.Location = new System.Drawing.Point(234, 217);
+            this.buttonUpdate.Location = new System.Drawing.Point(287, 217);
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.Size = new System.Drawing.Size(82, 37);
             this.buttonUpdate.TabIndex = 1;
@@ -91,7 +90,7 @@
             // buttonDelete
             // 
             this.buttonDelete.BackColor = System.Drawing.Color.PapayaWhip;
-            this.buttonDelete.Location = new System.Drawing.Point(380, 217);
+            this.buttonDelete.Location = new System.Drawing.Point(837, 217);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(82, 37);
             this.buttonDelete.TabIndex = 1;
@@ -102,7 +101,7 @@
             // buttonReset
             // 
             this.buttonReset.BackColor = System.Drawing.Color.PapayaWhip;
-            this.buttonReset.Location = new System.Drawing.Point(515, 217);
+            this.buttonReset.Location = new System.Drawing.Point(662, 217);
             this.buttonReset.Name = "buttonReset";
             this.buttonReset.Size = new System.Drawing.Size(82, 37);
             this.buttonReset.TabIndex = 1;
@@ -113,7 +112,7 @@
             // buttonSearch
             // 
             this.buttonSearch.BackColor = System.Drawing.Color.PapayaWhip;
-            this.buttonSearch.Location = new System.Drawing.Point(660, 217);
+            this.buttonSearch.Location = new System.Drawing.Point(488, 217);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(82, 37);
             this.buttonSearch.TabIndex = 1;
@@ -123,8 +122,8 @@
             // 
             // buttonBack
             // 
-            this.buttonBack.BackColor = System.Drawing.Color.PapayaWhip;
-            this.buttonBack.Location = new System.Drawing.Point(812, 217);
+            this.buttonBack.BackColor = System.Drawing.Color.Peru;
+            this.buttonBack.Location = new System.Drawing.Point(922, 531);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(82, 37);
             this.buttonBack.TabIndex = 1;
@@ -195,19 +194,10 @@
             this.labelgGender.TabIndex = 2;
             this.labelgGender.Text = "Gender";
             // 
-            // labelRole
-            // 
-            this.labelRole.AutoSize = true;
-            this.labelRole.Location = new System.Drawing.Point(709, 91);
-            this.labelRole.Name = "labelRole";
-            this.labelRole.Size = new System.Drawing.Size(42, 20);
-            this.labelRole.TabIndex = 2;
-            this.labelRole.Text = "Role";
-            // 
             // labelSalary
             // 
             this.labelSalary.AutoSize = true;
-            this.labelSalary.Location = new System.Drawing.Point(709, 154);
+            this.labelSalary.Location = new System.Drawing.Point(709, 91);
             this.labelSalary.Name = "labelSalary";
             this.labelSalary.Size = new System.Drawing.Size(53, 20);
             this.labelSalary.TabIndex = 2;
@@ -234,16 +224,9 @@
             this.textBoxpass.Size = new System.Drawing.Size(148, 26);
             this.textBoxpass.TabIndex = 3;
             // 
-            // textBoxrole
-            // 
-            this.textBoxrole.Location = new System.Drawing.Point(780, 91);
-            this.textBoxrole.Name = "textBoxrole";
-            this.textBoxrole.Size = new System.Drawing.Size(148, 26);
-            this.textBoxrole.TabIndex = 3;
-            // 
             // textBoxsalary
             // 
-            this.textBoxsalary.Location = new System.Drawing.Point(780, 151);
+            this.textBoxsalary.Location = new System.Drawing.Point(780, 91);
             this.textBoxsalary.Name = "textBoxsalary";
             this.textBoxsalary.Size = new System.Drawing.Size(148, 26);
             this.textBoxsalary.TabIndex = 3;
@@ -284,21 +267,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(1030, 519);
+            this.BackColor = System.Drawing.Color.Tan;
+            this.ClientSize = new System.Drawing.Size(1032, 591);
             this.Controls.Add(this.comboBoxgender);
             this.Controls.Add(this.textBoxage);
             this.Controls.Add(this.textBoxsalary);
             this.Controls.Add(this.textBoxpass);
             this.Controls.Add(this.textBoxconact);
-            this.Controls.Add(this.textBoxrole);
             this.Controls.Add(this.textBoxid);
             this.Controls.Add(this.textBoxemail);
             this.Controls.Add(this.textBoxname);
             this.Controls.Add(this.labelSalary);
             this.Controls.Add(this.labelAge);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.labelRole);
             this.Controls.Add(this.labelContact);
             this.Controls.Add(this.labelId);
             this.Controls.Add(this.labelgGender);
@@ -336,12 +317,10 @@
         private System.Windows.Forms.Label labelContact;
         private System.Windows.Forms.Label labelAge;
         private System.Windows.Forms.Label labelgGender;
-        private System.Windows.Forms.Label labelRole;
         private System.Windows.Forms.Label labelSalary;
         private System.Windows.Forms.TextBox textBoxname;
         private System.Windows.Forms.TextBox textBoxid;
         private System.Windows.Forms.TextBox textBoxpass;
-        private System.Windows.Forms.TextBox textBoxrole;
         private System.Windows.Forms.TextBox textBoxsalary;
         private System.Windows.Forms.TextBox textBoxemail;
         private System.Windows.Forms.TextBox textBoxconact;

@@ -41,9 +41,7 @@
             this.textBoxId = new System.Windows.Forms.TextBox();
             this.textBoxPass = new System.Windows.Forms.TextBox();
             this.labelGender = new System.Windows.Forms.Label();
-            this.labelRole = new System.Windows.Forms.Label();
             this.labelAddress = new System.Windows.Forms.Label();
-            this.textBoxRole = new System.Windows.Forms.TextBox();
             this.textBoxAddress = new System.Windows.Forms.TextBox();
             this.Grid = new System.Windows.Forms.DataGridView();
             this.buttonSearch = new System.Windows.Forms.Button();
@@ -161,40 +159,25 @@
             this.labelGender.TabIndex = 0;
             this.labelGender.Text = "Gender";
             // 
-            // labelRole
-            // 
-            this.labelRole.AutoSize = true;
-            this.labelRole.Location = new System.Drawing.Point(766, 100);
-            this.labelRole.Name = "labelRole";
-            this.labelRole.Size = new System.Drawing.Size(42, 20);
-            this.labelRole.TabIndex = 0;
-            this.labelRole.Text = "Role";
-            // 
             // labelAddress
             // 
             this.labelAddress.AutoSize = true;
-            this.labelAddress.Location = new System.Drawing.Point(766, 155);
+            this.labelAddress.Location = new System.Drawing.Point(766, 94);
             this.labelAddress.Name = "labelAddress";
             this.labelAddress.Size = new System.Drawing.Size(68, 20);
             this.labelAddress.TabIndex = 0;
             this.labelAddress.Text = "Address";
             // 
-            // textBoxRole
-            // 
-            this.textBoxRole.Location = new System.Drawing.Point(880, 100);
-            this.textBoxRole.Name = "textBoxRole";
-            this.textBoxRole.Size = new System.Drawing.Size(141, 26);
-            this.textBoxRole.TabIndex = 1;
-            // 
             // textBoxAddress
             // 
-            this.textBoxAddress.Location = new System.Drawing.Point(880, 155);
+            this.textBoxAddress.Location = new System.Drawing.Point(880, 94);
             this.textBoxAddress.Name = "textBoxAddress";
             this.textBoxAddress.Size = new System.Drawing.Size(141, 26);
             this.textBoxAddress.TabIndex = 1;
             // 
             // Grid
             // 
+            this.Grid.BackgroundColor = System.Drawing.Color.Bisque;
             this.Grid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Grid.Location = new System.Drawing.Point(46, 282);
             this.Grid.Name = "Grid";
@@ -206,7 +189,7 @@
             // buttonSearch
             // 
             this.buttonSearch.BackColor = System.Drawing.Color.PapayaWhip;
-            this.buttonSearch.Location = new System.Drawing.Point(677, 227);
+            this.buttonSearch.Location = new System.Drawing.Point(880, 227);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(75, 39);
             this.buttonSearch.TabIndex = 3;
@@ -216,8 +199,8 @@
             // 
             // buttonBack
             // 
-            this.buttonBack.BackColor = System.Drawing.Color.PapayaWhip;
-            this.buttonBack.Location = new System.Drawing.Point(862, 227);
+            this.buttonBack.BackColor = System.Drawing.Color.Peru;
+            this.buttonBack.Location = new System.Drawing.Point(990, 566);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(75, 39);
             this.buttonBack.TabIndex = 3;
@@ -250,7 +233,7 @@
             // buttonDelete
             // 
             this.buttonDelete.BackColor = System.Drawing.Color.PapayaWhip;
-            this.buttonDelete.Location = new System.Drawing.Point(335, 227);
+            this.buttonDelete.Location = new System.Drawing.Point(390, 227);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(75, 39);
             this.buttonDelete.TabIndex = 3;
@@ -261,7 +244,7 @@
             // buttonReset
             // 
             this.buttonReset.BackColor = System.Drawing.Color.PapayaWhip;
-            this.buttonReset.Location = new System.Drawing.Point(513, 227);
+            this.buttonReset.Location = new System.Drawing.Point(626, 227);
             this.buttonReset.Name = "buttonReset";
             this.buttonReset.Size = new System.Drawing.Size(75, 39);
             this.buttonReset.TabIndex = 3;
@@ -284,7 +267,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
+            this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(1096, 629);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.buttonUpdate);
@@ -297,14 +280,12 @@
             this.Controls.Add(this.textBoxAddress);
             this.Controls.Add(this.textBoxPass);
             this.Controls.Add(this.textBoxAge);
-            this.Controls.Add(this.textBoxRole);
             this.Controls.Add(this.textBoxId);
             this.Controls.Add(this.textBoxContact);
             this.Controls.Add(this.textBox4Name);
             this.Controls.Add(this.labelAddress);
             this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.labelPass);
-            this.Controls.Add(this.labelRole);
             this.Controls.Add(this.labelage);
             this.Controls.Add(this.labelId);
             this.Controls.Add(this.labelGender);
@@ -335,9 +316,7 @@
         private System.Windows.Forms.TextBox textBoxId;
         private System.Windows.Forms.TextBox textBoxPass;
         private System.Windows.Forms.Label labelGender;
-        private System.Windows.Forms.Label labelRole;
         private System.Windows.Forms.Label labelAddress;
-        private System.Windows.Forms.TextBox textBoxRole;
         private System.Windows.Forms.TextBox textBoxAddress;
         private System.Windows.Forms.DataGridView Grid;
         private System.Windows.Forms.Button buttonSearch;

@@ -46,5 +46,29 @@ namespace Shop_Management_System.Views
             emp.Show();
 
         }
+
+        private void buttonupdate_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                EmployeeController emc = new EmployeeController();
+                Employee em = emc.SearchEmployee(u.UserId);
+
+                em.Name = textBoxName.Text;
+                em.Password = textBoxPass.Text;
+                em.Email = textBoxEmail.Text;
+                em.ContactNo = textBoxContact.Text;
+                em.Age = Convert.ToInt32(textBoxAge.Text);
+
+                emc.UpdateEmployee(em);
+
+                MessageBox.Show("Profile Updated Successfully");
+            }
+            catch (Exception exp)
+            {
+                MessageBox.Show("Incorrect format" + exp.Message);
+            }
+        }
     }
 }

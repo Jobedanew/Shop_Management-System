@@ -253,7 +253,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.PapayaWhip;
+            this.btnLogin.BackColor = System.Drawing.Color.Peru;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.Location = new System.Drawing.Point(432, 264);
             this.btnLogin.Name = "btnLogin";
@@ -279,7 +279,7 @@
             // 
             // btnexit
             // 
-            this.btnexit.BackColor = System.Drawing.Color.IndianRed;
+            this.btnexit.BackColor = System.Drawing.Color.Red;
             this.btnexit.ForeColor = System.Drawing.Color.Black;
             this.btnexit.Location = new System.Drawing.Point(687, 399);
             this.btnexit.Name = "btnexit";
@@ -293,7 +293,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBoxUserId);
             this.Controls.Add(this.textBoxPassword);

@@ -181,7 +181,7 @@
             // 
             // bnSingUp
             // 
-            this.bnSingUp.BackColor = System.Drawing.Color.PapayaWhip;
+            this.bnSingUp.BackColor = System.Drawing.Color.Peru;
             this.bnSingUp.Location = new System.Drawing.Point(425, 363);
             this.bnSingUp.Name = "bnSingUp";
             this.bnSingUp.Size = new System.Drawing.Size(123, 51);
@@ -192,7 +192,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.PapayaWhip;
+            this.btnBack.BackColor = System.Drawing.Color.Peru;
             this.btnBack.Location = new System.Drawing.Point(854, 432);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(80, 40);
@@ -221,7 +221,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(967, 500);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.bnSingUp);

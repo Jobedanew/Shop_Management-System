@@ -52,5 +52,12 @@ namespace Shop_Management_System.Views
         {
 
         }
+
+        private void buttonlogout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
+        }
     }
 }

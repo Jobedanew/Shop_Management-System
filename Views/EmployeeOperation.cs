@@ -32,7 +32,6 @@ namespace Shop_Management_System.Views
                 string contact =textBoxconact.Text;
                 string email = textBoxemail.Text;
                 string gender = comboBoxgender.Text;
-                //int role =Convert.ToInt32(textBoxrole.Text);
                 int age = Convert.ToInt32(textBoxage.Text);
                 int salary = Convert.ToInt32(textBoxsalary.Text);
 
@@ -70,7 +69,6 @@ namespace Shop_Management_System.Views
                 string contact = textBoxconact.Text;
                 string email = textBoxemail.Text;
                 string gender = comboBoxgender.Text;
-                //int role = Convert.ToInt32(textBoxrole.Text);
                 int age = Convert.ToInt32(textBoxage.Text);
                 int salary = Convert.ToInt32(textBoxsalary.Text);
 
@@ -127,7 +125,6 @@ namespace Shop_Management_System.Views
                 textBoxconact.Clear();
                 textBoxemail.Clear();
                 comboBoxgender.SelectedIndex=-1;
-                textBoxrole.Clear();
                 textBoxsalary.Clear();
                 textBoxname.Clear();
                 textBoxid.Clear();
@@ -153,7 +150,6 @@ namespace Shop_Management_System.Views
                     comboBoxgender.Text = em.Gender;
                     textBoxname.Text = em.Name;
                     textBoxpass.Text = em.Password;
-                    textBoxrole.Text = em.Role.ToString();
                     textBoxsalary.Text = em.Salary.ToString();
 
                     MessageBox.Show("Employee Has Been Found!");

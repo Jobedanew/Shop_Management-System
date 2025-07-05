@@ -205,7 +205,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.PapayaWhip;
+            this.btnBack.BackColor = System.Drawing.Color.Peru;
             this.btnBack.Location = new System.Drawing.Point(548, 574);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 36);
@@ -216,19 +216,20 @@
             // 
             // buttonUpdate
             // 
-            this.buttonUpdate.Location = new System.Drawing.Point(267, 522);
+            this.buttonUpdate.BackColor = System.Drawing.Color.PapayaWhip;
+            this.buttonUpdate.Location = new System.Drawing.Point(280, 521);
             this.buttonUpdate.Name = "buttonUpdate";
-            this.buttonUpdate.Size = new System.Drawing.Size(124, 36);
+            this.buttonUpdate.Size = new System.Drawing.Size(109, 34);
             this.buttonUpdate.TabIndex = 3;
             this.buttonUpdate.Text = "Update";
-            this.buttonUpdate.UseVisualStyleBackColor = true;
+            this.buttonUpdate.UseVisualStyleBackColor = false;
             this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
             // AdminProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(635, 622);
             this.Controls.Add(this.buttonUpdate);
             this.Controls.Add(this.btnBack);

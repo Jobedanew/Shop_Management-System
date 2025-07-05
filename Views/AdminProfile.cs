@@ -49,20 +49,15 @@ namespace Shop_Management_System.Views
             try
             {
 
-                AdminController admin = new AdminController();
-                Admin a = admin.SearchAdmin("admin01");
+                AdminController ac = new AdminController();
+                Admin a = ac.SearchAdmin("admin01");
 
                 a.Name = textBoxName.Text;
                 a.Password = textBoxPass.Text;
                 a.Email = textBoxEmail.Text;
                 a.ContactNo = textBoxContact.Text;
                 a.Age = Convert.ToInt32(textBoxAge.Text);
-                /*int role = a.Role;
-                string id = a.UserId;
-                int profit = Convert.ToInt32(a.Profit);
-                string gender = a.Gender;
-                */
-                AdminController ac = new AdminController();
+  
                 ac.UpdateAdmin(a);
 
                 MessageBox.Show("Profile Updated Successfully");
