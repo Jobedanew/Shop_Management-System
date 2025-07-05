@@ -61,7 +61,6 @@ namespace Shop_Management_System.Views
         {
             string name= txtBxName.Text;
             string id= txtBxID.Text;
-            string password = txtBxPass.Text;
             string contactNo = txtBxContact.Text;
             string ageStr = txtBxAge.Text;
             string email = txtBxEmail.Text;
@@ -79,10 +78,10 @@ namespace Shop_Management_System.Views
 
             CustomerController customer = new CustomerController();
 
-            if((name != "") && (id != "") && (password != "") && (contactNo != "") && (gender != "") && (email != "") && (ageStr!="") && (address != ""))
+            if((name != "") && (id != "") && (contactNo != "") && (gender != "") && (email != "") && (ageStr!="") && (address != ""))
             {
                 int age = int.Parse(ageStr);           
-                Customer c = new Customer(name,id,password,email,contactNo,gender,3,age,address);
+                Customer c = new Customer(name,id,"0",email,contactNo,gender,3,age,address);
                 customer.AddCustomer(c);
                 MessageBox.Show("Customer Successfully Registered!");
 

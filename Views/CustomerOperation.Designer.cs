@@ -36,10 +36,8 @@
             this.textBoxAge = new System.Windows.Forms.TextBox();
             this.labelName = new System.Windows.Forms.Label();
             this.labelId = new System.Windows.Forms.Label();
-            this.labelPass = new System.Windows.Forms.Label();
             this.textBox4Name = new System.Windows.Forms.TextBox();
             this.textBoxId = new System.Windows.Forms.TextBox();
-            this.textBoxPass = new System.Windows.Forms.TextBox();
             this.labelGender = new System.Windows.Forms.Label();
             this.labelAddress = new System.Windows.Forms.Label();
             this.textBoxAddress = new System.Windows.Forms.TextBox();
@@ -57,7 +55,7 @@
             // labelEmail
             // 
             this.labelEmail.AutoSize = true;
-            this.labelEmail.Location = new System.Drawing.Point(399, 45);
+            this.labelEmail.Location = new System.Drawing.Point(72, 155);
             this.labelEmail.Name = "labelEmail";
             this.labelEmail.Size = new System.Drawing.Size(48, 20);
             this.labelEmail.TabIndex = 0;
@@ -65,15 +63,15 @@
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Location = new System.Drawing.Point(513, 45);
+            this.textBoxEmail.Location = new System.Drawing.Point(186, 155);
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(160, 26);
+            this.textBoxEmail.Size = new System.Drawing.Size(145, 26);
             this.textBoxEmail.TabIndex = 1;
             // 
             // labelContact
             // 
             this.labelContact.AutoSize = true;
-            this.labelContact.Location = new System.Drawing.Point(399, 100);
+            this.labelContact.Location = new System.Drawing.Point(399, 51);
             this.labelContact.Name = "labelContact";
             this.labelContact.Size = new System.Drawing.Size(89, 20);
             this.labelContact.TabIndex = 0;
@@ -81,7 +79,7 @@
             // 
             // textBoxContact
             // 
-            this.textBoxContact.Location = new System.Drawing.Point(513, 100);
+            this.textBoxContact.Location = new System.Drawing.Point(513, 48);
             this.textBoxContact.Name = "textBoxContact";
             this.textBoxContact.Size = new System.Drawing.Size(160, 26);
             this.textBoxContact.TabIndex = 1;
@@ -89,7 +87,7 @@
             // labelage
             // 
             this.labelage.AutoSize = true;
-            this.labelage.Location = new System.Drawing.Point(399, 155);
+            this.labelage.Location = new System.Drawing.Point(399, 103);
             this.labelage.Name = "labelage";
             this.labelage.Size = new System.Drawing.Size(38, 20);
             this.labelage.TabIndex = 0;
@@ -97,7 +95,7 @@
             // 
             // textBoxAge
             // 
-            this.textBoxAge.Location = new System.Drawing.Point(513, 155);
+            this.textBoxAge.Location = new System.Drawing.Point(513, 100);
             this.textBoxAge.Name = "textBoxAge";
             this.textBoxAge.Size = new System.Drawing.Size(160, 26);
             this.textBoxAge.TabIndex = 1;
@@ -120,15 +118,6 @@
             this.labelId.TabIndex = 0;
             this.labelId.Text = "Customer ID";
             // 
-            // labelPass
-            // 
-            this.labelPass.AutoSize = true;
-            this.labelPass.Location = new System.Drawing.Point(72, 155);
-            this.labelPass.Name = "labelPass";
-            this.labelPass.Size = new System.Drawing.Size(78, 20);
-            this.labelPass.TabIndex = 0;
-            this.labelPass.Text = "Password";
-            // 
             // textBox4Name
             // 
             this.textBox4Name.Location = new System.Drawing.Point(186, 45);
@@ -142,13 +131,6 @@
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(145, 26);
             this.textBoxId.TabIndex = 1;
-            // 
-            // textBoxPass
-            // 
-            this.textBoxPass.Location = new System.Drawing.Point(186, 155);
-            this.textBoxPass.Name = "textBoxPass";
-            this.textBoxPass.Size = new System.Drawing.Size(145, 26);
-            this.textBoxPass.TabIndex = 1;
             // 
             // labelGender
             // 
@@ -278,14 +260,12 @@
             this.Controls.Add(this.buttonSearch);
             this.Controls.Add(this.Grid);
             this.Controls.Add(this.textBoxAddress);
-            this.Controls.Add(this.textBoxPass);
             this.Controls.Add(this.textBoxAge);
             this.Controls.Add(this.textBoxId);
             this.Controls.Add(this.textBoxContact);
             this.Controls.Add(this.textBox4Name);
             this.Controls.Add(this.labelAddress);
             this.Controls.Add(this.textBoxEmail);
-            this.Controls.Add(this.labelPass);
             this.Controls.Add(this.labelage);
             this.Controls.Add(this.labelId);
             this.Controls.Add(this.labelGender);
@@ -311,10 +291,8 @@
         private System.Windows.Forms.TextBox textBoxAge;
         private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.Label labelId;
-        private System.Windows.Forms.Label labelPass;
         private System.Windows.Forms.TextBox textBox4Name;
         private System.Windows.Forms.TextBox textBoxId;
-        private System.Windows.Forms.TextBox textBoxPass;
         private System.Windows.Forms.Label labelGender;
         private System.Windows.Forms.Label labelAddress;
         private System.Windows.Forms.TextBox textBoxAddress;

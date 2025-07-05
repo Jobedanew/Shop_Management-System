@@ -30,9 +30,7 @@
         {
             this.labCusName = new System.Windows.Forms.Label();
             this.labID = new System.Windows.Forms.Label();
-            this.labPass = new System.Windows.Forms.Label();
             this.labContact = new System.Windows.Forms.Label();
-            this.txtBxPass = new System.Windows.Forms.TextBox();
             this.txtBxContact = new System.Windows.Forms.TextBox();
             this.txtBxName = new System.Windows.Forms.TextBox();
             this.txtBxID = new System.Windows.Forms.TextBox();
@@ -68,15 +66,6 @@
             this.labID.TabIndex = 0;
             this.labID.Text = "ID";
             // 
-            // labPass
-            // 
-            this.labPass.AutoSize = true;
-            this.labPass.Location = new System.Drawing.Point(500, 131);
-            this.labPass.Name = "labPass";
-            this.labPass.Size = new System.Drawing.Size(78, 20);
-            this.labPass.TabIndex = 0;
-            this.labPass.Text = "Password";
-            // 
             // labContact
             // 
             this.labContact.AutoSize = true;
@@ -85,13 +74,6 @@
             this.labContact.Size = new System.Drawing.Size(89, 20);
             this.labContact.TabIndex = 0;
             this.labContact.Text = "Contact No";
-            // 
-            // txtBxPass
-            // 
-            this.txtBxPass.Location = new System.Drawing.Point(595, 128);
-            this.txtBxPass.Name = "txtBxPass";
-            this.txtBxPass.Size = new System.Drawing.Size(236, 26);
-            this.txtBxPass.TabIndex = 1;
             // 
             // txtBxContact
             // 
@@ -166,7 +148,7 @@
             // labEmail
             // 
             this.labEmail.AutoSize = true;
-            this.labEmail.Location = new System.Drawing.Point(500, 185);
+            this.labEmail.Location = new System.Drawing.Point(500, 131);
             this.labEmail.Name = "labEmail";
             this.labEmail.Size = new System.Drawing.Size(48, 20);
             this.labEmail.TabIndex = 0;
@@ -174,7 +156,7 @@
             // 
             // txtBxEmail
             // 
-            this.txtBxEmail.Location = new System.Drawing.Point(595, 188);
+            this.txtBxEmail.Location = new System.Drawing.Point(595, 131);
             this.txtBxEmail.Name = "txtBxEmail";
             this.txtBxEmail.Size = new System.Drawing.Size(236, 26);
             this.txtBxEmail.TabIndex = 1;
@@ -204,7 +186,7 @@
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
-            this.lblAddress.Location = new System.Drawing.Point(500, 244);
+            this.lblAddress.Location = new System.Drawing.Point(500, 188);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(68, 20);
             this.lblAddress.TabIndex = 0;
@@ -212,7 +194,7 @@
             // 
             // txtBxAddress
             // 
-            this.txtBxAddress.Location = new System.Drawing.Point(595, 241);
+            this.txtBxAddress.Location = new System.Drawing.Point(595, 188);
             this.txtBxAddress.Name = "txtBxAddress";
             this.txtBxAddress.Size = new System.Drawing.Size(236, 26);
             this.txtBxAddress.TabIndex = 1;
@@ -232,11 +214,9 @@
             this.Controls.Add(this.txtBxContact);
             this.Controls.Add(this.txtBxAddress);
             this.Controls.Add(this.txtBxEmail);
-            this.Controls.Add(this.txtBxPass);
             this.Controls.Add(this.lblAddress);
             this.Controls.Add(this.labEmail);
             this.Controls.Add(this.labContact);
-            this.Controls.Add(this.labPass);
             this.Controls.Add(this.labID);
             this.Controls.Add(this.bnAge);
             this.Controls.Add(this.labCusName);
@@ -254,9 +234,7 @@
 
         private System.Windows.Forms.Label labCusName;
         private System.Windows.Forms.Label labID;
-        private System.Windows.Forms.Label labPass;
         private System.Windows.Forms.Label labContact;
-        private System.Windows.Forms.TextBox txtBxPass;
         private System.Windows.Forms.TextBox txtBxContact;
         private System.Windows.Forms.TextBox txtBxName;
         private System.Windows.Forms.TextBox txtBxID;
