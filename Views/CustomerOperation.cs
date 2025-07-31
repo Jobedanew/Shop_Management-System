@@ -36,14 +36,14 @@ namespace Shop_Management_System.Views
                 string name = textBox4Name.Text;
                 string id = textBoxId.Text;
                 string email = textBoxEmail.Text;
-                string password = textBoxPass.Text;
+                //string password = textBoxPass.Text;
                 string contact = textBoxContact.Text;
                 int age = Convert.ToInt32(textBoxAge.Text);
                 string gender = comboBox1.Text;
                 string address = textBoxAddress.Text;                   
 
                 CustomerController cc = new CustomerController();
-                Customer c = new Customer(id,name,password,email,contact,gender,3,age,address);
+                Customer c = new Customer(id,name,"0",email,contact,gender,3,age,address);
                 cc.UpdateCustomer(c);
 
                 MessageBox.Show("Customer Updated Successfully!");
